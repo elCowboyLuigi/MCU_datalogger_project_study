@@ -614,6 +614,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 100.33 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f502f7-0c7c-4350-8437-eea7ccac6b10")
+		(property "Reference" "R5"
+			(at 102.87 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 102.87 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.552 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ed945db-7583-456d-95f0-f68698a291cb")
+		)
+		(pin "2"
+			(uuid "fa35d9ee-cbb9-4b16-87af-02c99a920eb9")
+		)
+		(instances
+			(project "MCU Datalogger"
+				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 82.55 88.9 0)
 		(unit 1)
@@ -678,6 +748,76 @@
 			(project "MCU Datalogger"
 				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.1543 75.8198 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b353d446-3b61-4316-9fab-5441fed79b51")
+		(property "Reference" "R6"
+			(at 116.6943 74.5497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 116.6943 77.0897 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.3763 75.8198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.1543 75.8198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.1543 75.8198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c506f8e2-81b3-4307-8c8b-6caa4efee76c")
+		)
+		(pin "2"
+			(uuid "0954cdd7-57db-4c4d-8a26-7119dafd61b4")
+		)
+		(instances
+			(project "MCU Datalogger"
+				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
+					(reference "R6")
 					(unit 1)
 				)
 			)
