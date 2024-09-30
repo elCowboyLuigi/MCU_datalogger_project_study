@@ -562,7 +562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500K"
 			(at 81.28 77.4699 0)
 			(effects
 				(font
@@ -590,6 +590,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descrisc" ""
 			(at 78.74 76.2 0)
 			(effects
 				(font
