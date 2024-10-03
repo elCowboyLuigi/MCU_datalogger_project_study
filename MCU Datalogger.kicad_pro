@@ -427,7 +427,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "ATMEGA328P-AU"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {

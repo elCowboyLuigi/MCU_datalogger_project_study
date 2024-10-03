@@ -1,0 +1,263 @@
+(footprint "SOIC127P600X175-8N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "DS1337S, ")
+	(property "Reference" "REF**"
+		(at -0.795 -3.332 0)
+		(layer "F.SilkS")
+		(uuid "fbc9bc16-fb6c-4eb8-8ea3-05dc5ead59b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC127P600X175-8N"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "2d5fdb06-bf33-4b7b-8928-ab34f5553bb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "002aade5-1c18-403c-a8e9-44779eb47617")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.snapeda.com/parts/DS1337S/Rochester%20Electronics,%20LLC/datasheet/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "746392a7-f0b1-4afe-b10d-58deac9e4f82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac632b2a-935b-4469-9ba1-7f98de1427b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2.52)
+		(end 2 -2.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a5b5da0-eaed-44ee-92cf-a50ef4cfdcb7")
+	)
+	(fp_line
+		(start -2 2.52)
+		(end 2 2.52)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecc2265f-a1c9-4487-bb29-a036cd8b51d1")
+	)
+	(fp_circle
+		(center -4.445 -2.495)
+		(end -4.345 -2.495)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8f84b1a1-e5fd-45f3-961f-046c550acc91")
+	)
+	(fp_line
+		(start -3.71 -2.75)
+		(end -3.71 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9a448bf-8d7e-47f2-bcc5-ccb889dbd8f1")
+	)
+	(fp_line
+		(start -3.71 -2.75)
+		(end 3.71 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1f1c9af-38bb-4761-8f3a-c25334331301")
+	)
+	(fp_line
+		(start -3.71 2.75)
+		(end 3.71 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de48bbe6-2488-4fbc-90d0-115a8d60f7bf")
+	)
+	(fp_line
+		(start 3.71 -2.75)
+		(end 3.71 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0e5b4e3-deeb-4ce8-8c25-c8150e523da9")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -2 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc820211-41ad-42c1-b459-d2bfa6632af5")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end 2 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e8ff533-56e4-45e7-8128-f4c8f7c4c37c")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb180f1-b03e-4b40-9392-2993902bd9bf")
+	)
+	(fp_line
+		(start 2 -2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea5f90fe-4aa1-4f28-b2b2-08ba118da483")
+	)
+	(fp_circle
+		(center -4.445 -2.495)
+		(end -4.345 -2.495)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d8880908-4626-47d1-917a-545103f41dff")
+	)
+	(pad "1" smd roundrect
+		(at -2.475 -1.905)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "f6956632-1d42-46f4-88d9-bb6a7795de71")
+	)
+	(pad "2" smd roundrect
+		(at -2.475 -0.635)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "2d717e5f-7175-418d-8a22-2d36838f8683")
+	)
+	(pad "3" smd roundrect
+		(at -2.475 0.635)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1e49d647-8fe2-4dfc-abdb-3590185a6069")
+	)
+	(pad "4" smd roundrect
+		(at -2.475 1.905)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "747256cf-3d8f-4aad-a14e-3fd5bc8e3ebc")
+	)
+	(pad "5" smd roundrect
+		(at 2.475 1.905)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "b47bb0d9-ad20-4933-9414-4662ba5c062f")
+	)
+	(pad "6" smd roundrect
+		(at 2.475 0.635)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "11c95dbe-b606-4e04-b9cf-8a880d8e9f7b")
+	)
+	(pad "7" smd roundrect
+		(at 2.475 -0.635)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "168eae58-2968-4df6-b976-f954ed2cc859")
+	)
+	(pad "8" smd roundrect
+		(at 2.475 -1.905)
+		(size 1.97 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "bdb67f53-26a2-4872-9ed8-590945a55459")
+	)
+	(model "G:/Meu Drive/KiCAD/custom schematics/DS1337S_/DS1337S+.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
