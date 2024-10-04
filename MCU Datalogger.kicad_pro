@@ -470,15 +470,30 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 20
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/Vcc": "Power"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "Vcc"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MISO"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
