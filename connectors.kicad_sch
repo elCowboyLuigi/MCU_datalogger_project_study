@@ -950,9 +950,285 @@
 			)
 		)
 	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 167.64 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c6c02e0-1a7c-4724-a185-8e75f7b0027d")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 154.94 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "224f40ed-2820-4204-bf97-f68c2d911f4c")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 154.94 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "245b2a54-f45a-4ad9-b6b4-af4198dde72a")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 146.05 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d3e6b7f-12b9-4ebf-832b-7b8312f1abb0")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 201.93 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "336c266a-e5d7-449c-8ad3-58d84faadf0e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 201.93 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a86c37f-af1d-432d-9402-f7092cface45")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 201.93 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d3ba967-1ab1-449b-9872-30d055029d1a")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 176.53 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ca320ea-e230-400f-bd67-d4964a2361a9")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 201.93 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6079cd54-44d6-42f0-8693-e80c03666c73")
+	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 201.93 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63af8908-c3aa-4bfb-b97c-7ce7e1dff19a")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 167.64 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ca875d1-9f94-4ac7-82a5-d314ea90910e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 176.53 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73d9fdad-a58d-452c-aac6-e85ea6def261")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 146.05 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98b068b0-2f1d-4927-a1cb-e486f9c1d7fd")
+	)
+	(hierarchical_label "D8"
+		(shape bidirectional)
+		(at 201.93 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a9a316c-c8c0-40d0-bb8b-4f47f903543b")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 201.93 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b141b208-f530-4179-87ee-406bdcb81267")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 176.53 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c80b6e48-0dc6-41a9-8004-4686ddd25154")
+	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 201.93 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cea1cb43-f1d6-4b31-a248-11d393a3d476")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 201.93 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da90af92-1f1b-4fc8-87ee-7af39a70e6c4")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 146.05 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcc49ae9-17fe-4c9f-8e7a-33b8a5343264")
+	)
+	(hierarchical_label "Vcc"
+		(shape passive)
+		(at 167.64 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1968b50-57a2-465d-8394-726a805bee51")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 176.53 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e94e4514-dd67-4a6d-90a7-296b57f5fd74")
+	)
+	(hierarchical_label "RESET"
+		(shape passive)
+		(at 154.94 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea2e91e0-67da-484b-a950-0d9c52eabc76")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 146.05 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa000876-b46a-4d74-95b3-a798bb13c280")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 156.21 55.88 0)
+		(at 140.97 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -960,7 +1236,7 @@
 		(dnp no)
 		(uuid "100fa792-1110-4ecd-b5fc-3d082441e61f")
 		(property "Reference" "J1"
-			(at 156.845 48.26 0)
+			(at 141.605 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,7 +1244,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 156.845 50.8 0)
+			(at 141.605 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +1252,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 156.21 55.88 0)
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 55.88 0)
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1270,7 @@
 			)
 		)
 		(property "Description" "I2C"
-			(at 158.496 62.992 0)
+			(at 143.256 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1278,7 @@
 			)
 		)
 		(property "descrisc" ""
-			(at 156.21 55.88 0)
+			(at 140.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1492,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 176.53 55.88 0)
+		(at 171.45 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1224,7 +1500,7 @@
 		(dnp no)
 		(uuid "dc90efd4-ac0d-411a-9830-b634ce19e17f")
 		(property "Reference" "J2"
-			(at 177.165 48.26 0)
+			(at 172.085 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1508,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 177.165 50.8 0)
+			(at 172.085 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1516,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 176.53 55.88 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 55.88 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1534,7 @@
 			)
 		)
 		(property "Description" "Serial UART"
-			(at 178.816 62.992 0)
+			(at 173.736 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1542,7 @@
 			)
 		)
 		(property "descrisc" ""
-			(at 176.53 55.88 0)
+			(at 171.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
