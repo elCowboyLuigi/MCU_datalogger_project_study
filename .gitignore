@@ -1,5 +1,5 @@
 *Gerber/*
 *backups/*
-*lck/*
-*.xml*
-*fp-info-cache*
+*.lck
+*.xml
+fp-info-cache
