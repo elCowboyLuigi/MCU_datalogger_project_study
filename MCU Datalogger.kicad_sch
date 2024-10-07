@@ -6076,7 +6076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -6095,6 +6095,15 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descrisc" ""
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -6971,7 +6980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
 			(at 52.07 157.48 0)
 			(effects
 				(font
@@ -6990,6 +6999,15 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "descrisc" ""
 			(at 52.07 157.48 0)
 			(effects
 				(font
