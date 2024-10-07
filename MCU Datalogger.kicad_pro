@@ -478,7 +478,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.9,
@@ -489,7 +489,11 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/SDA": "rgb(255, 153, 0)",
+      "/Vcc": "rgb(255, 0, 0)",
+      "GND": "rgb(255, 0, 255)"
+    },
     "netclass_assignments": {
       "/Vcc": "Power"
     },
