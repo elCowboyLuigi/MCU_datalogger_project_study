@@ -3,4 +3,4 @@
 *.lck
 *.xml
 fp-info-cache
-*.kicad_sch
+connectors.kicad_sch
