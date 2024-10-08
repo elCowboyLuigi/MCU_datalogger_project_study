@@ -2053,151 +2053,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start 1.524 0.254)
-					(mid 0 0.762)
-					(end -1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2794,12 +2649,6 @@
 		(uuid "eca16b19-a5eb-4a4a-a451-0b9a704130fd")
 	)
 	(junction
-		(at 199.39 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd517d1a-0c37-4c99-a5d1-ab9b675d9dbf")
-	)
-	(junction
 		(at 273.05 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3063,16 +2912,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32631eed-d986-42c5-ac4e-6d49cfc9ff11")
-	)
-	(wire
-		(pts
 			(xy 171.45 119.38) (xy 171.45 123.19)
 		)
 		(stroke
@@ -3220,16 +3059,6 @@
 			(type default)
 		)
 		(uuid "4bf456a9-c013-45a6-8f0e-3f2b7ac94bc9")
-	)
-	(wire
-		(pts
-			(xy 198.12 81.28) (xy 199.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb03856-b9ec-4f67-8d71-120f355e6d23")
 	)
 	(wire
 		(pts
@@ -3493,16 +3322,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d1e3f5-f69b-49b4-982b-0c6934694888")
-	)
-	(wire
-		(pts
 			(xy 273.05 86.36) (xy 273.05 57.15)
 		)
 		(stroke
@@ -3583,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 180.34 81.28)
+			(xy 180.34 81.28) (xy 200.66 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4012,17 +3831,6 @@
 			(justify left bottom)
 		)
 		(uuid "131e3ce2-ca36-4dce-9a2f-c360713f3f6e")
-	)
-	(label "RESET(JMP)"
-		(at 199.39 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14e926e2-0f66-46e0-9142-66d950617a62")
 	)
 	(label "D8"
 		(at 200.66 43.18 180)
@@ -5010,7 +4818,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3108596a-6d1b-44f8-8de3-2365eaaeb80d")
 		(property "Reference" "R1"
 			(at 113.03 58.4199 0)
@@ -5750,16 +5557,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 157.48 180)
+		(at 130.81 157.48 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70659a00-7e15-411a-8e86-b4c9eb57c317")
 		(property "Reference" "R4"
-			(at 133.35 156.2099 0)
+			(at 128.27 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5575,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 133.35 158.7499 0)
+			(at 128.27 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5584,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.588 157.48 90)
+			(at 129.032 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,83 +6921,6 @@
 			(project ""
 				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 193.04 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc6efaf5-aee7-4132-832d-3d7145dc27ba")
-		(property "Reference" "JP1"
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "descrisc" ""
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a875ae30-0097-4cb7-a4d0-90426bc80d06")
-		)
-		(pin "1"
-			(uuid "a9228d5f-2626-44f5-90ae-24dec484d52f")
-		)
-		(instances
-			(project ""
-				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
