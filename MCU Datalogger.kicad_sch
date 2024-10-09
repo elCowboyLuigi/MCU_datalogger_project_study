@@ -2842,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 142.24) (xy 214.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221d57a3-fbef-4dfe-9737-f4cdcb279970")
+	)
+	(wire
+		(pts
 			(xy 177.8 147.32) (xy 189.23 147.32)
 		)
 		(stroke
@@ -3292,6 +3302,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 143.51) (xy 189.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4c7312-cbcb-4b3f-8b57-0f1ae8d9cb1b")
+	)
+	(wire
+		(pts
 			(xy 236.22 40.64) (xy 236.22 35.56)
 		)
 		(stroke
@@ -3299,16 +3319,6 @@
 			(type default)
 		)
 		(uuid "a4b9e8d1-9464-43b5-a0ca-090342067c5b")
-	)
-	(wire
-		(pts
-			(xy 245.11 29.21) (xy 245.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c3299f-11c7-4ad8-be12-1889ac31c813")
 	)
 	(wire
 		(pts
@@ -3622,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 130.81) (xy 189.23 130.81)
+			(xy 180.34 140.97) (xy 189.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3679,16 +3689,6 @@
 			(type default)
 		)
 		(uuid "fdcfdbb7-6005-490b-97ae-5bc71bb026df")
-	)
-	(wire
-		(pts
-			(xy 180.34 138.43) (xy 189.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fddd1b9f-4b58-4e10-9df6-d2e23b7b5b5d")
 	)
 	(rectangle
 		(start 254 113.03)
@@ -3854,17 +3854,6 @@
 		)
 		(uuid "1e0c85f1-eeaf-4a5c-b0c3-36efa09f8cf6")
 	)
-	(label "SCK"
-		(at 180.34 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "239abe4c-0fd4-478f-af60-623b4b235ad6")
-	)
 	(label "MISO"
 		(at 214.63 147.32 0)
 		(fields_autoplaced yes)
@@ -3875,17 +3864,6 @@
 			(justify left bottom)
 		)
 		(uuid "2675b271-0a98-4d63-b10c-418d327f8324")
-	)
-	(label "SCK"
-		(at 52.07 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26829c79-47ce-4c83-93da-65ab476959e1")
 	)
 	(label "D7"
 		(at 231.14 60.96 0)
@@ -3898,6 +3876,17 @@
 		)
 		(uuid "2998ef38-f5d0-4fda-8876-91e6dc63a317")
 	)
+	(label "SCL"
+		(at 180.34 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3038b399-a8ff-4d15-bf69-666c84f9fd26")
+	)
 	(label "D3"
 		(at 210.82 121.92 0)
 		(fields_autoplaced yes)
@@ -3908,6 +3897,17 @@
 			(justify left bottom)
 		)
 		(uuid "35b35f04-7f8f-4053-967f-737c503513f6")
+	)
+	(label "SCL"
+		(at 62.23 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c41be3-8a0b-49cc-868c-33f8a14c7f00")
 	)
 	(label "Vcc"
 		(at 273.05 35.56 0)
@@ -4007,6 +4007,17 @@
 		)
 		(uuid "5ec7c154-70fc-441b-96de-158a973888f6")
 	)
+	(label "SCL"
+		(at 102.87 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60e890df-22b1-4146-948f-75f9aed170da")
+	)
 	(label "Vcc"
 		(at 82.55 160.02 180)
 		(fields_autoplaced yes)
@@ -4063,7 +4074,7 @@
 		(uuid "7aca6aed-4eb9-4448-8168-936d1164ea96")
 	)
 	(label "SDA"
-		(at 180.34 130.81 180)
+		(at 180.34 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4095,7 +4106,7 @@
 		)
 		(uuid "94a40ad3-4670-4616-bd93-df627ad420f1")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 200.66 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4172,6 +4183,17 @@
 		)
 		(uuid "a740e232-4288-4c21-8e9f-04d35746d3d4")
 	)
+	(label "SCK"
+		(at 214.63 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af89c334-72ac-4b14-9fb7-a47dcdd7e85d")
+	)
 	(label "D4"
 		(at 210.82 124.46 0)
 		(fields_autoplaced yes)
@@ -4194,6 +4216,17 @@
 		)
 		(uuid "ba900481-4faa-4761-8f31-b804c2125cb9")
 	)
+	(label "SCL"
+		(at 52.07 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c057a60f-cc26-4c06-8a8a-27d883da6263")
+	)
 	(label "RESET"
 		(at 214.63 153.67 0)
 		(fields_autoplaced yes)
@@ -4206,13 +4239,13 @@
 		(uuid "c0e80afc-432c-42f9-9921-f10adfef0151")
 	)
 	(label "SDA"
-		(at 52.07 71.12 0)
+		(at 52.07 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c22fc600-4487-4fb8-a8ef-8c93d9b43cea")
 	)
@@ -4270,28 +4303,6 @@
 			(justify left bottom)
 		)
 		(uuid "e46a376a-dd38-4095-a0ae-065751cdb23c")
-	)
-	(label "SCK"
-		(at 102.87 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e58d81b9-5cd3-4364-90ac-02e83c8e503a")
-	)
-	(label "SCK"
-		(at 62.23 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7f6eea8-0114-4a67-aa0f-7adce302ba55")
 	)
 	(label "RX"
 		(at 177.8 147.32 180)
@@ -5785,72 +5796,6 @@
 			(project "MCU Datalogger"
 				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 245.11 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e2c0377-d35b-4dd0-aca6-f712874a166e")
-		(property "Reference" "#FLG01"
-			(at 245.11 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 245.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef1239d4-bbad-4225-88f0-05780700d23d")
-		)
-		(instances
-			(project ""
-				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7502,16 +7447,6 @@
 			)
 			(uuid "132d85f4-cb18-4b75-8fef-7d51c22c86b1")
 		)
-		(pin "SCK" passive
-			(at 189.23 138.43 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "94920f84-a234-404e-b041-2c90fea589d4")
-		)
 		(pin "GND" passive
 			(at 189.23 119.38 180)
 			(effects
@@ -7533,7 +7468,7 @@
 			(uuid "783045bd-8325-4285-bdf2-4e889f821285")
 		)
 		(pin "SDA" bidirectional
-			(at 189.23 130.81 180)
+			(at 189.23 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,6 +7546,26 @@
 				(justify right)
 			)
 			(uuid "bf4e9d21-8005-47fc-99d9-c4bfef1b738e")
+		)
+		(pin "SCL" passive
+			(at 189.23 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7f05544-1720-4065-8908-37f4fcce1798")
+		)
+		(pin "SCK" passive
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1433baf-d287-4e2e-9215-81099a157a93")
 		)
 		(instances
 			(project "MCU Datalogger"
