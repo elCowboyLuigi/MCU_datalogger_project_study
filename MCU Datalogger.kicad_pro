@@ -517,7 +517,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
+      "plot": "4_Layer_PCB_MCU_Dataloggers_Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

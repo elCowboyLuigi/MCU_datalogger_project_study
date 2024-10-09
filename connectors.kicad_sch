@@ -1166,7 +1166,7 @@
 		)
 		(uuid "da90af92-1f1b-4fc8-87ee-7af39a70e6c4")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape passive)
 		(at 146.05 60.96 0)
 		(fields_autoplaced yes)

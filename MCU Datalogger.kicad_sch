@@ -2053,151 +2053,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start 1.524 0.254)
-					(mid 0 0.762)
-					(end -1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2794,12 +2649,6 @@
 		(uuid "eca16b19-a5eb-4a4a-a451-0b9a704130fd")
 	)
 	(junction
-		(at 199.39 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd517d1a-0c37-4c99-a5d1-ab9b675d9dbf")
-	)
-	(junction
 		(at 273.05 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2993,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 142.24) (xy 214.63 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221d57a3-fbef-4dfe-9737-f4cdcb279970")
+	)
+	(wire
+		(pts
 			(xy 177.8 147.32) (xy 189.23 147.32)
 		)
 		(stroke
@@ -3060,16 +2919,6 @@
 			(type default)
 		)
 		(uuid "309c918c-7dca-49c7-b404-5a8e78aa3f40")
-	)
-	(wire
-		(pts
-			(xy 199.39 81.28) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32631eed-d986-42c5-ac4e-6d49cfc9ff11")
 	)
 	(wire
 		(pts
@@ -3220,16 +3069,6 @@
 			(type default)
 		)
 		(uuid "4bf456a9-c013-45a6-8f0e-3f2b7ac94bc9")
-	)
-	(wire
-		(pts
-			(xy 198.12 81.28) (xy 199.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb03856-b9ec-4f67-8d71-120f355e6d23")
 	)
 	(wire
 		(pts
@@ -3463,6 +3302,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 143.51) (xy 189.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4c7312-cbcb-4b3f-8b57-0f1ae8d9cb1b")
+	)
+	(wire
+		(pts
 			(xy 236.22 40.64) (xy 236.22 35.56)
 		)
 		(stroke
@@ -3473,16 +3322,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 29.21) (xy 245.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c3299f-11c7-4ad8-be12-1889ac31c813")
-	)
-	(wire
-		(pts
 			(xy 191.77 60.96) (xy 200.66 60.96)
 		)
 		(stroke
@@ -3490,16 +3329,6 @@
 			(type default)
 		)
 		(uuid "a6d03b88-e03e-4d75-bdc1-f6424ec06ca7")
-	)
-	(wire
-		(pts
-			(xy 199.39 85.09) (xy 199.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d1e3f5-f69b-49b4-982b-0c6934694888")
 	)
 	(wire
 		(pts
@@ -3583,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 180.34 81.28)
+			(xy 180.34 81.28) (xy 200.66 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 130.81) (xy 189.23 130.81)
+			(xy 180.34 140.97) (xy 189.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3860,16 +3689,6 @@
 			(type default)
 		)
 		(uuid "fdcfdbb7-6005-490b-97ae-5bc71bb026df")
-	)
-	(wire
-		(pts
-			(xy 180.34 138.43) (xy 189.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fddd1b9f-4b58-4e10-9df6-d2e23b7b5b5d")
 	)
 	(rectangle
 		(start 254 113.03)
@@ -4013,17 +3832,6 @@
 		)
 		(uuid "131e3ce2-ca36-4dce-9a2f-c360713f3f6e")
 	)
-	(label "RESET(JMP)"
-		(at 199.39 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14e926e2-0f66-46e0-9142-66d950617a62")
-	)
 	(label "D8"
 		(at 200.66 43.18 180)
 		(fields_autoplaced yes)
@@ -4046,17 +3854,6 @@
 		)
 		(uuid "1e0c85f1-eeaf-4a5c-b0c3-36efa09f8cf6")
 	)
-	(label "SCK"
-		(at 180.34 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "239abe4c-0fd4-478f-af60-623b4b235ad6")
-	)
 	(label "MISO"
 		(at 214.63 147.32 0)
 		(fields_autoplaced yes)
@@ -4067,17 +3864,6 @@
 			(justify left bottom)
 		)
 		(uuid "2675b271-0a98-4d63-b10c-418d327f8324")
-	)
-	(label "SCK"
-		(at 52.07 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26829c79-47ce-4c83-93da-65ab476959e1")
 	)
 	(label "D7"
 		(at 231.14 60.96 0)
@@ -4090,6 +3876,17 @@
 		)
 		(uuid "2998ef38-f5d0-4fda-8876-91e6dc63a317")
 	)
+	(label "SCL"
+		(at 180.34 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3038b399-a8ff-4d15-bf69-666c84f9fd26")
+	)
 	(label "D3"
 		(at 210.82 121.92 0)
 		(fields_autoplaced yes)
@@ -4100,6 +3897,17 @@
 			(justify left bottom)
 		)
 		(uuid "35b35f04-7f8f-4053-967f-737c503513f6")
+	)
+	(label "SCL"
+		(at 62.23 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c41be3-8a0b-49cc-868c-33f8a14c7f00")
 	)
 	(label "Vcc"
 		(at 273.05 35.56 0)
@@ -4199,6 +4007,17 @@
 		)
 		(uuid "5ec7c154-70fc-441b-96de-158a973888f6")
 	)
+	(label "SCL"
+		(at 102.87 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60e890df-22b1-4146-948f-75f9aed170da")
+	)
 	(label "Vcc"
 		(at 82.55 160.02 180)
 		(fields_autoplaced yes)
@@ -4255,7 +4074,7 @@
 		(uuid "7aca6aed-4eb9-4448-8168-936d1164ea96")
 	)
 	(label "SDA"
-		(at 180.34 130.81 180)
+		(at 180.34 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4287,7 +4106,7 @@
 		)
 		(uuid "94a40ad3-4670-4616-bd93-df627ad420f1")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 200.66 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4364,6 +4183,17 @@
 		)
 		(uuid "a740e232-4288-4c21-8e9f-04d35746d3d4")
 	)
+	(label "SCK"
+		(at 214.63 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af89c334-72ac-4b14-9fb7-a47dcdd7e85d")
+	)
 	(label "D4"
 		(at 210.82 124.46 0)
 		(fields_autoplaced yes)
@@ -4386,6 +4216,17 @@
 		)
 		(uuid "ba900481-4faa-4761-8f31-b804c2125cb9")
 	)
+	(label "SCL"
+		(at 52.07 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c057a60f-cc26-4c06-8a8a-27d883da6263")
+	)
 	(label "RESET"
 		(at 214.63 153.67 0)
 		(fields_autoplaced yes)
@@ -4398,13 +4239,13 @@
 		(uuid "c0e80afc-432c-42f9-9921-f10adfef0151")
 	)
 	(label "SDA"
-		(at 52.07 71.12 0)
+		(at 52.07 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c22fc600-4487-4fb8-a8ef-8c93d9b43cea")
 	)
@@ -4462,28 +4303,6 @@
 			(justify left bottom)
 		)
 		(uuid "e46a376a-dd38-4095-a0ae-065751cdb23c")
-	)
-	(label "SCK"
-		(at 102.87 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e58d81b9-5cd3-4364-90ac-02e83c8e503a")
-	)
-	(label "SCK"
-		(at 62.23 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7f6eea8-0114-4a67-aa0f-7adce302ba55")
 	)
 	(label "RX"
 		(at 177.8 147.32 180)
@@ -5010,7 +4829,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3108596a-6d1b-44f8-8de3-2365eaaeb80d")
 		(property "Reference" "R1"
 			(at 113.03 58.4199 0)
@@ -5750,16 +5568,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 157.48 180)
+		(at 130.81 157.48 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70659a00-7e15-411a-8e86-b4c9eb57c317")
 		(property "Reference" "R4"
-			(at 133.35 156.2099 0)
+			(at 128.27 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5586,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 133.35 158.7499 0)
+			(at 128.27 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5595,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.588 157.48 90)
+			(at 129.032 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,72 +5796,6 @@
 			(project "MCU Datalogger"
 				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 245.11 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e2c0377-d35b-4dd0-aca6-f712874a166e")
-		(property "Reference" "#FLG01"
-			(at 245.11 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 245.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef1239d4-bbad-4225-88f0-05780700d23d")
-		)
-		(instances
-			(project ""
-				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7120,83 +6872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 193.04 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc6efaf5-aee7-4132-832d-3d7145dc27ba")
-		(property "Reference" "JP1"
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "descrisc" ""
-			(at 193.04 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a875ae30-0097-4cb7-a4d0-90426bc80d06")
-		)
-		(pin "1"
-			(uuid "a9228d5f-2626-44f5-90ae-24dec484d52f")
-		)
-		(instances
-			(project ""
-				(path "/2d095fec-de04-4caa-8a5d-d4c981edd86b"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 260.35 129.54 0)
 		(unit 1)
@@ -7772,16 +7447,6 @@
 			)
 			(uuid "132d85f4-cb18-4b75-8fef-7d51c22c86b1")
 		)
-		(pin "SCK" passive
-			(at 189.23 138.43 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "94920f84-a234-404e-b041-2c90fea589d4")
-		)
 		(pin "GND" passive
 			(at 189.23 119.38 180)
 			(effects
@@ -7803,7 +7468,7 @@
 			(uuid "783045bd-8325-4285-bdf2-4e889f821285")
 		)
 		(pin "SDA" bidirectional
-			(at 189.23 130.81 180)
+			(at 189.23 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,6 +7546,26 @@
 				(justify right)
 			)
 			(uuid "bf4e9d21-8005-47fc-99d9-c4bfef1b738e")
+		)
+		(pin "SCL" passive
+			(at 189.23 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7f05544-1720-4065-8908-37f4fcce1798")
+		)
+		(pin "SCK" passive
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1433baf-d287-4e2e-9215-81099a157a93")
 		)
 		(instances
 			(project "MCU Datalogger"
