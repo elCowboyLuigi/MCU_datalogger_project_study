@@ -8,6 +8,7 @@
       "Power"
     ],
     "hidden_nets": [
+      "",
       "GND",
       "/Vcc",
       "Net-(U3-AREF)",
