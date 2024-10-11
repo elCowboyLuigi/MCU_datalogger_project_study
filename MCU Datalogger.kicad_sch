@@ -3952,7 +3952,7 @@
 		)
 		(uuid "49a86024-742b-475b-9329-9df6a08be4b8")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 118.11 165.1 0)
 		(fields_autoplaced yes)
 		(effects

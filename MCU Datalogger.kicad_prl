@@ -1,50 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": false,
-    "hidden_netclasses": [
-      "Default",
-      "Power"
-    ],
-    "hidden_nets": [
-      "",
-      "GND",
-      "/Vcc",
-      "Net-(U3-AREF)",
-      "unconnected-(U3-ADC7-Pad22)",
-      "Net-(U3-PB6)",
-      "Net-(U3-PB7)",
-      "Net-(D1-K)",
-      "/SCK",
-      "Net-(D2-K)",
-      "unconnected-(U3-PC2-Pad25)",
-      "/SDA",
-      "unconnected-(U3-PB2-Pad14)",
-      "/RX",
-      "/TX",
-      "/D3",
-      "/D8",
-      "/D2",
-      "/D6",
-      "/D7",
-      "/D4",
-      "/D5",
-      "unconnected-(U3-PC1-Pad24)",
-      "/MOSI",
-      "/RESET",
-      "unconnected-(U3-ADC6-Pad19)",
-      "unconnected-(U3-PC0-Pad23)",
-      "unconnected-(U3-PC3-Pad26)",
-      "unconnected-(U3-PB1-Pad13)",
-      "/MISO",
-      "Net-(U4-SQW{slash}~INT)",
-      "Net-(U4-~{INTA})",
-      "unconnected-(U3-VCC-Pad6)",
-      "Net-(U4-X2)",
-      "Net-(U4-X1)"
-    ],
-    "high_contrast_mode": 1,
+    "hidden_netclasses": [],
+    "hidden_nets": [],
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -103,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "fffffef_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
